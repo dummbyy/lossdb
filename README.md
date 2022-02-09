@@ -10,19 +10,17 @@ npm install lossdb
 
 Specify file path, otherwise new file will be created automatically in current working directory
 
-#### Insert data
+#### Usage
 ```js
+  // Insert data
   db.insert("1", {"message": "Hello world!"}, 1000);
-```
-#### Delete data
-```js
+  
+  // Delete data
   db.delete("1");
-```
-#### Update date
-```js
-  db.update("1", {"message", "We're here!"});
-```
-#### Select data
-```js
+  
+  // Update data
+   db.update("1", {"message", "We're here!"});
+   
+  // Select data
   db.select("1");
 ```
