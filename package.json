@@ -1,0 +1,29 @@
+{
+  "name": "lossdb",
+  "version": "0.0.1",
+  "description": "Based in file, key-value database.",
+  "main": "index.js",
+  "scripts": {
+    "ll": "tsc"
+  },
+  "keywords": [
+    "database",
+    "lossdb",
+    "file",
+    "json",
+    "filebased",
+    "db",
+    "typescript"
+  ],
+  "author": "sjuhyeon",
+  "license": "ISC",
+  "dependencies": {
+    "@types/event-stream": "^4.0.0",
+    "@types/lockfile": "^1.0.2",
+    "@types/node": "^17.0.16",
+    "event-stream": "^4.0.1",
+    "lockfile": "^1.0.4",
+    "moment": "^2.29.1",
+    "object-sizeof": "^1.6.1"
+  }
+}
