@@ -13,6 +13,7 @@ Specify file path, otherwise new file will be created automatically in current w
 #### Usage
 ```js
   // Insert data
+  // 1000 is expire time in seconds.
   db.insert("1", {"message": "Hello world!"}, 1000);
   
   // Delete data
