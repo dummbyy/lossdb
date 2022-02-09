@@ -1,11 +1,6 @@
 # lossdb
 Based in file, key-value database.
 
-## Installation
-``` shell
-npm install lossdb
-```
-
 ## Init. db
 
 Specify file path, otherwise new file will be created automatically in current working directory
